@@ -1,0 +1,32 @@
+.nav__list {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	padding: 15px 40px;
+}
+/* click되는 범위 너무 넓음 줄여야함 */
+.nav__logo {
+	margin-right: 25%;
+}
+
+.nav__logo a {
+	background-color: rgba(0, 0, 0, 0.05);
+	padding: 10px 25px;
+	font-size: 15px;
+	font-weight: 600;
+	border-radius: 5px;
+}
+
+.nav__btn:not(.nav__btn:last-child) {
+	margin-right: 80px;
+}
+
+.nav__btn a span {
+	font-size: 20px;
+	font-weight: 400;
+}
